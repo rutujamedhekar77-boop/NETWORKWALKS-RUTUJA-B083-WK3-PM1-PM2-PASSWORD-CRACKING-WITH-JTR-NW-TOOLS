@@ -6,6 +6,7 @@ PASSWORD CRACKING WITH JTR & NETWORK TOOLS
 
 Building an authorized password recovery and security assessment framework combining offline hash extraction via John the Ripper and browser-based dictionary attacks via Networkwalks utilities.
 
+<img width="1230" height="1279" alt="01" src="https://github.com/user-attachments/assets/c87c5404-b695-477b-8033-8449b3dff4bf" />
 
 
 
@@ -67,11 +68,27 @@ Method 1: Password Cracking with John the Ripper & Johnny GUI (Applied to Multip
 
 - JTR & Johnny Download: Downloaded John the Ripper and the Johnny GUI setup package ("johnny-2.2-win.zip") from the official Openwall website, mirror links, or the course Google Drive folder.
 
+
+<img width="1599" height="899" alt="02" src="https://github.com/user-attachments/assets/261ccfad-ec4d-45dd-b26b-3a246accf8f4" />
+
+
 - Application Installation: Located and ran the Johnny installer setup file ("johnny-installer.exe") from the "Downloads" folder to install Johnny on the Windows PC.
+
+<img width="1599" height="875" alt="03" src="https://github.com/user-attachments/assets/93adcc6a-9c3f-47b8-a025-383280f044a3" />
+
+
 
 - Binary Path Configuration: Configured Johnny by navigating to "Settings" and mapping the executable path to "john.exe" inside the JTR run folder.
 
+
+<img width="1599" height="845" alt="04" src="https://github.com/user-attachments/assets/d4c57b4b-bc55-413a-931d-41bec80b1875" />
+
+
 - PDF Hash Extraction: Uploaded each of the authorized locked PDF files ("My Locked PDF1.pdf", "My Locked PDF2.pdf", and "My Locked PDF3.pdf") sequentially to an authorized PDF hash extractor to obtain their respective hash values.
+
+
+<img width="921" height="502" alt="05" src="https://github.com/user-attachments/assets/74ad833d-7706-4b01-84d7-25201c0367a4" />
+
   
   - Extracted the individual hash values for "My Locked PDF1.pdf", "My Locked PDF2.pdf", and "My Locked PDF3.pdf".
 
@@ -79,23 +96,65 @@ Method 1: Password Cracking with John the Ripper & Johnny GUI (Applied to Multip
 
 - Attack Initialization: Opened Johnny, selected "Open password file" to load each hash text file sequentially ("hash1.txt", "hash2.txt", and "hash3.txt"), and initiated the process using "Start new attack".
 
-- 
+- <img width="927" height="491" alt="06" src="https://github.com/user-attachments/assets/0a2b6df8-5087-440e-92ca-59120d006fb8" />
+  Cracking password for my hash for my locked PDF1
+  
+
+  <img width="1079" height="568" alt="07" src="https://github.com/user-attachments/assets/c2e8adc6-9f27-4eb3-aef1-d59d108ba314" />
+For My locked PDF2
+
+
+<img width="1079" height="575" alt="08" src="https://github.com/user-attachments/assets/407e7d4c-7405-4b0e-b701-992554bfd85c" />
+For locked PDF3
+
 
 Method 2: Password Cracking with Networkwalks Tools (Applied to Multiple Locked PDFs)
 
 - Hash Calculator Access: Opened the browser-based Networkwalks Hash Calculator utility.
 
+- <img width="1079" height="587" alt="09" src="https://github.com/user-attachments/assets/de23e6ad-17b8-4eca-9f10-ca3a6654ab63" />
+
+
 - File Upload & Parsing: Uploaded each of the authorized target locked PDF files ("My Locked PDF1.pdf", "My Locked PDF2.pdf", and "My Locked PDF3.pdf") to the Hash Calculator one by one to generate their crackable hash formats.
-  
+
+  <img width="1079" height="577" alt="10" src="https://github.com/user-attachments/assets/4b70aafe-2353-4140-b24d-ad1695167510" />
+
   - Extracted the individual hash values for each authorized PDF.
 
 - Hash String Retrieval: Copied the complete generated hash strings for each respective PDF document.
 
 - Dictionary Attack Execution: Navigated to the Networkwalks Password Cracker, entered the extracted hashes for the authorized files sequentially, selected the available dictionary option, and started the password-recovery process.
+- 
+<img width="1080" height="872" alt="WhatsApp Image 2026-09-27 at 4 42 25 AM" src="https://github.com/user-attachments/assets/ff541bbb-5087-45cf-b88c-bac9e12f0443" />
+  Figure  handling wordlist and custom upload for My locked PDF1
+  
+
+
+  <img width="1080" height="876" alt="WhatsApp Image 2026-09-27 at 4 42 42 AM" src="https://github.com/user-attachments/assets/d47cf318-d8d5-4d18-b309-4033d3afcc22" />
+FOR My locked PDF2
+
+
+
+<img width="1080" height="881" alt="WhatsApp Image 2026-09-27 at 4 42 55 AM" src="https://github.com/user-attachments/assets/7f1fb051-84b0-4bf0-8c9b-6f99c3bedd0d" />
+For My locked PDF3
+
+
+
 
 Common Step: Document Unlocking (Applicable to Both Methods)
 
 - Document Unlocking: After a password was successfully recovered for an authorized laboratory file, the recovered password was entered into the corresponding PDF reader to verify that the protected PDF could be opened successfully.
+- 
+<img width="1280" height="651" alt="WhatsApp Image 2026-09-27 at 4 43 18 AM" src="https://github.com/user-attachments/assets/40d8a9d1-1057-4cfa-ba39-031a49fd8489" />
+Successfullu unlocked My locked PDF1
+
+
+<img width="1280" height="654" alt="WhatsApp Image 2026-09-27 at 4 43 18 AM (1)" src="https://github.com/user-attachments/assets/d5e7e2fd-8c48-4600-8b8f-3154a9a07309" />
+Successfullu unlocked My locked PDF2
+
+
+<img width="1280" height="654" alt="WhatsApp Image 2026-09-27 at 4 43 19 AM" src="https://github.com/user-attachments/assets/7e062b8f-9049-4496-8958-19d863f3f147" />
+Successfullu unlocked My locked PDF3
 
 - The successful results were documented using screenshots for the project report.
 
