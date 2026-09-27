@@ -248,3 +248,4 @@ Week: 03
 Project: Password Cracking with JTR & Network Tools
 Repository: GitHub
   
+Linkedin: https://lnkd.in/p/de_3qSDi
